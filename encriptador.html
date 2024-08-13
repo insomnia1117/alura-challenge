@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        /* Estilos CSS internos */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EBCCE4 ;
+        }
+
+         input::placeholder {
+            color: #0A3871; /* Color del texto del placeholder */
+            font-size: 30px;
+         }
+    </style>
+ <div class="Contenedor">
+    <main class="contenedor_principal">
+        
+        <img src="/Imagenes/logo_rosa.png" height="80px" width="80px"  alt= "Logo de Alura">
+        
+    <section class="seccion_encriptar">
+
+     
+     <textarea id="ingrese" placeholder="Ingrese el texto" rows="6" cols="50"></textarea>
+
+
+      <div class="advertencia">
+
+        <p> 
+            <img src="/Imagenes/warning.png"  height="20px" width="25px"  alt= "Advertencia">
+            
+            Solo letras minúsculas y sin acentos </p>
+        
+   
+
+     <div class="botones">
+
+      <input type="button" id="Encriptar" class="botones" value="Encriptar" >
+      <input type="button" id="Desencriptar" class="botones" value="Desencriptar">
+
+      </div>
+     </div>
+
+    </section>
+
+<section class="seccion_desencriptador">
+    <div class="elemento_desencriptar">
+        <img src="/Imagenes/alura_muñeco.png" class= "imagen_muñeco"  id="imagen_muñeco2" alt="No hay elementos a desencriptar">
+        
+    
+       
+    </div>
+    <div class="parrafo_advertencia">
+       
+        <p id="info_texto"> Ingresa el texto que deseas encriptar o desencriptar.</p>
+
+        <p id="mensajeFinal"  Ningún mensaje fue encontrado p>
+
+            <div class="seccion_desencriptado" style="display: none;">  
+                <button id="copiarTexto" onclick="copiarAlPortapapeles()">Copiar</button>
+         
+             </div>
+           
+  
+  </section>
+    
+
+
+    <script src="encriptador.js"></script> <!-- Enlace a un script externo -->
+    <script>
+        // Scripts JavaScript internos
+        
+    </script>
+</main>
+<footer>
+ Desarrollado por Sofia Quiñones (2024)
+</footer>
+</div>
+</body>
+</html>

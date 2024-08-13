@@ -1,0 +1,167 @@
+.botones {
+    width: 400px; /* Ancho del input */
+    height: 70px; /* Altura del input */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    text-align: center;
+    display: flex; /* Usar flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+#Encriptar:hover {
+    background-color: black;
+    color: white; /* Color del texto al pasar el cursor */
+}
+
+#Desencriptar:hover {
+    background-color: #C8CED5; /* Color de fondo al pasar el cursor */
+    color: #0A3871; /* Color del texto al pasar el cursor */
+}
+
+#Encriptar {
+    background-color: #0A3871;
+    color: white;
+    border: 2px solid #0A3871;
+    margin-right: 24px;
+    transition: background-color 0.4s, color 0.4s; /* Transición suave */
+}
+
+#Desencriptar {
+    background-color: #D8DFE8;
+    border: 2px solid #0A3871;
+    transition: background-color 0.4s, color 0.4s; /* Transición suave */
+}
+
+#ingrese {
+      /*  display: block; /* Cambia el input a un elemento de bloque */
+      margin: 0 auto; /* Automáticamente ajusta los márgenes izquierdo y derecho */
+      width: 664px;
+      height: 228px;
+      background-color: transparent;
+      font-size: 36px;
+      font-weight: normal;
+      color: #0A3871;
+      border: none;
+      resize: none;
+      outline: none;
+ }
+
+ .Contenedor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .contenedor_principal {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px 16px;
+    width: 100%;
+    flex: 1;
+    max-width: 1360px;
+    margin: 0 auto;
+ }
+
+ .division_elementos_encriptados {
+    display: flex;
+    flex-direction: column;
+     gap: 16px;
+    padding-bottom: 32px;
+ }
+
+.seccion_encriptar {
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    padding-top: 128px;
+    justify-content: space-between;
+}
+
+
+.seccion_desencriptador {
+    background-color: #F8E0FA;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 32px;
+}
+
+.elemento_desencriptar {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.parrafo_advertencia {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+ footer {
+    text-align: center;
+    background-color: #FADFFF;
+    color: var(--color-secundario);
+    font-size: 1.6rem;
+    padding: 0.8rem 1rem;
+    width: 100%;
+ }
+
+ .imagen_muñeco {
+    height:330px;
+    width: 100%;
+ }
+
+ #copiarTexto {
+    display: none; /* Oculta el botón "Copiar" inicialmente */
+    width: 336px; /* Ancho del input */
+    height: 67px; /* Altura del input */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    background-color: #F8E0FA;
+    border: 1px solid #0A3871;
+    transition: background-color 0.4s, color 0.4s; /* Transición suave */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    margin-left: 40px;
+    margin-top: 350px;
+}
+
+#copiarTexto:hover {
+    background-color: black;
+    color: white; /* Color del texto al pasar el cursor */
+}
+ .mensaje_final {
+    background-color: #F8E0FA;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24;
+
+ }
+
+ .seccion_desencriptado {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    flex-direction: column; /* Alinea los elementos en una columna */
+
+ }
